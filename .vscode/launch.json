@@ -1,0 +1,18 @@
+{
+    "version":"0.2.0",
+    "configurations":[
+      {
+        "type":"node",
+        "request":"launch",
+        "name":"Launch Program", 
+        "runtimeArgs":["-r","ts-node/register"],
+        "skipFiles":[
+            "<node_internals>/**"
+        ],
+        "program":"${workspaceFolder}\\001_basic.ts", // 改成自己的ts源文件
+        "outFiles":[
+            "${workspaceFoler}/**/*.js"
+        ]
+      }
+    ]
+  }
