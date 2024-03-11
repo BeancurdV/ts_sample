@@ -9,7 +9,7 @@
         "skipFiles":[
             "<node_internals>/**"
         ],
-        "program":"${workspaceFolder}\\001_basic.ts", // 改成自己的ts源文件
+        "program":"${workspaceFolder}\\00a_decorators.ts", // 改成自己的ts源文件
         "outFiles":[
             "${workspaceFoler}/**/*.js"
         ]
